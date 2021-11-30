@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::get('/contato', function () {
     $name = 'Diogo';
 
+    $x = arra;
     return view('contact', [
         'name' => $name
     ]);
