@@ -21,6 +21,7 @@ Route::get('/contato', function () {
     $name = 'Diogo';
 
     $x = arra;
+    test = 3;
     return view('contact', [
         'name' => $name
     ]);
